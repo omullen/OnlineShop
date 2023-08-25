@@ -1,6 +1,5 @@
 const products = [
     {
-        _id: '1',
         name: 'Perfume',
         image: '/images/perfume.jfif',
         description:
@@ -11,7 +10,6 @@ const products = [
         numReviews: 5
     },
     {
-        _id: '2',
         name: 'Necklace',
         image: '/images/necklace.jpg',
         description:
@@ -22,7 +20,6 @@ const products = [
         numReviews: 5
     },
     {
-        _id: '3',
         name: 'Dress',
         image: '/images/dress.jpg',
         description:
