@@ -20,16 +20,14 @@ const importData = async () => {
         const sampleProducts = products.map(product => {
             return {...product, user: adminUser }
         })
-        await Product.insertMany(products)
-        console.log('Date imported')
+        await Product.insertMany(sampleProducts)
+        console.log('Data imported!')
         process.exit()
-
-    } catch (error) {
+      } catch (error) {
         console.error(`Error: ${error.message}`)
         process.exit(1)
-    }
+  }
 }
-
 const destroyData = async () =>{
     try{
   

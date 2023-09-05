@@ -7,7 +7,7 @@ const products = [
         price: 90.00,
         countInStock: 5,
         rating: 5.0,
-        numReviews: 5
+        numReviews: 5,
     },
     {
         name: 'Necklace',
@@ -17,7 +17,7 @@ const products = [
         price: 80.00,
         countInStock: 10,
         rating: 4.5,
-        numReviews: 5
+        numReviews: 5,
     },
     {
         name: 'Dress',
@@ -27,8 +27,8 @@ const products = [
         price: 100.00,
         countInStock: 5,
         rating: 4.5,
-        numReviews: 2
-    }
+        numReviews: 2,
+    },
 ]
 
 export default products
